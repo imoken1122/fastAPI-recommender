@@ -7,7 +7,7 @@ app = FastAPI()
 ar = AnimeRecommenderAPI()
 ar.load()
 origins = [
-    "https://arncmd.herokuapp.com/",
+    "https://arncmd.herokuapp.com",
 
 ]
 
