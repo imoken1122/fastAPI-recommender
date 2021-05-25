@@ -8,7 +8,7 @@ ar = AnimeRecommenderAPI()
 ar.load()
 origins = [
     "https://arncmd.herokuapp.com",
-
+    "http://localhost:3000"
 ]
 
 app.add_middleware(
